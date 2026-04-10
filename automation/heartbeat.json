@@ -1,0 +1,33 @@
+{
+  "status": "healthy",
+  "timestamp": "2024-10-27T10:30:00Z",
+  "environment": "production",
+  "version": "1.2.3",
+  "buildNumber": "456",
+  "uptimeSeconds": 86400,
+  "deviceInfo": {
+    "platform": "iOS",
+    "osVersion": "17.0",
+    "model": "iPhone 15 Pro",
+    "appMemoryUsageMB": 128
+  },
+  "networkConnectivity": {
+    "type": "wifi",
+    "signalStrength": -60,
+    "isConnected": true
+  },
+  "databaseConnection": {
+    "status": "connected",
+    "lastSuccessfulQuery": "2024-10-27T10:29:55Z"
+  },
+  "externalServices": {
+    "authService": "online",
+    "pushNotificationService": "online"
+  },
+  "metrics": {
+    "activeUsers": 1234,
+    "cpuUsagePercentage": 10.5,
+    "memoryUsagePercentage": 45.2
+  },
+  "alerts": [] // Example: ["High CPU usage detected"]
+}
